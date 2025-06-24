@@ -58,7 +58,6 @@ This project implements a machine learning-based Network Intrusion Detection Sys
 - Displays:
   - Prediction class label
   - Class probabilities
-  - Pie chart visualization
   - Bar chart visualization
 
 ---
