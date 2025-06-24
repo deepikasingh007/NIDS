@@ -10,8 +10,7 @@ This project implements a machine learning-based Network Intrusion Detection Sys
 
 - **Dataset**: NSL-KDD
 - import kagglehub
-# Download latest version
-path = kagglehub.dataset_download("hassan06/nslkdd")
+  path = kagglehub.dataset_download("hassan06/nslkdd")
 
 print("Path to dataset files:", path)
 - **Techniques used**:
