@@ -8,13 +8,13 @@ This project implements a machine learning-based Network Intrusion Detection Sys
 
 ## 🚀 Project Overview
 
-- **Dataset**: NSL-KDD
+- **Dataset**: NSL-KDD 
 - **Techniques used**:
   - Data Discretization using `KBinsDiscretizer`
   - Feature Selection using `SelectKBest` (Mutual Information)
   - Class Imbalance Handling using `ADASYN`
-  - Model Training with `XGBoost`
-  - Interactive Deployment using `Streamlit`
+  - Model Training with `XGBoost` `Random forest` `KNN` `Naive Bayes` `Decision Trees`
+  - Interactive Deployment using `Streamlit` `Hugging Face`
 
 ---
 
@@ -27,10 +27,10 @@ This project implements a machine learning-based Network Intrusion Detection Sys
    - Oversampling minority classes using ADASYN.
 
 2. **Model Training:**
-   - Trained using `XGBoostClassifier` on selected features.
+   - Trained using `XGBoostClassifier`(best model amomg all) in dashboard  on selected features.
 
 3. **Deployment:**
-   - Interactive web-based dashboard built using Streamlit.
+   - Interactive web-based dashboard built using Streamlit. Deployed using Hugging Face
 
 ---
 
